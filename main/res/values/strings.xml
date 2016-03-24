@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Number Crunch</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_settings">action</string>
+    <string name="Score_text">You got: </string>
+    <string name="answer_hint">Type Answer Here</string>
+    <string name="lvl1text">\t\t\t\t\t\t\t\t\t\tQuestion 1</string>
+    <string name="lvl2text">\t\t\t\t\t\t\t\t\t\tQuestion 2</string>
+    <string name="lvl3text">\t\t\t\t\t\t\t\t\t\tQuestion 3</string>
+    <string name="lvl4text">\t\t\t\t\t\t\t\t\t\tQuestion 4</string>
+    <string name="lvl5text">\t\t\t\t\t\t\t\t\t\tQuestion 5</string>
+    <string name="crunchtxt">Crunch this: </string>
+    <string name="btnnext">Next</string>
+    <string name="title_activity_qst_two">QstTwo</string>
+    <string name="title_activity_qst_three">QstThree</string>
+    <string name="title_activity_qst_four">QstFour</string>
+    <string name="title_activity_qst_five">QstFive</string>
+</resources>

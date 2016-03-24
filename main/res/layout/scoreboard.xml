@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#dcf9ad">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    SCORES"
+        android:id="@+id/textView8"
+        android:layout_gravity="center"
+        android:textSize="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#bfff00"
+        android:textColor="#ffffff"
+        android:textIsSelectable="true" />
+    <LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Score_text"
+        android:id="@+id/textView9"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="italic"
+        android:layout_weight="2.37" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="25dp"
+        android:weightSum="1"
+        android:gravity="fill_horizontal|bottom|center_vertical|center_horizontal"
+        android:layout_weight="0.01">
+
+        <Button
+            android:layout_width="84dp"
+            android:layout_height="52dp"
+            android:text="PLAY AGAIN"
+            android:id="@+id/RepeatLevel"
+            android:layout_marginLeft="60dp"
+            android:textColor="#f9f107"
+            android:background="#0a389c"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:enabled="true"
+            android:onClick="onButtonClick"
+            android:layout_weight="0.21"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:layout_width="84dp"
+            android:layout_height="52dp"
+            android:text="MAIN MENU"
+            android:id="@+id/MainMenu"
+            android:layout_marginLeft="60dp"
+            android:background="#0a389c"
+            android:textColor="#f9f107"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:enabled="true"
+            android:onClick="onButtonClick"
+            android:layout_weight="0.23"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f3f4f8"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Number Crunch - the quiz that gets you crunching numbers and helps boost your math abilities!"
+        android:id="@+id/textView"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:layout_weight="0.11"
+        android:layout_marginBottom="20dp"
+        android:textColor="#040404"
+        android:layout_gravity="center_vertical" />
+
+    <Button android:id="@+id/btnNextScreen"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:text="START QUIZ"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textColor="#f9f107"
+        android:backgroundTint="#0a389c"
+        android:clickable="false"
+        android:layout_weight="0.18" />
+</LinearLayout>
